@@ -137,8 +137,6 @@ def run():
     st.sidebar.markdown("# Choose User")
     activities = ["User", "Admin"]
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
-    link = '[©Developed by Dr,Briit](https://www.linkedin.com/in/mrbriit/)'
-    st.sidebar.markdown(link, unsafe_allow_html=True)
 
     # Create the DB
     db_sql = """CREATE DATABASE IF NOT EXISTS CV;"""
